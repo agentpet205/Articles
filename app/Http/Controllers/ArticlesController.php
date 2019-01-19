@@ -74,7 +74,9 @@ class ArticlesController extends Controller
     public function show($id)
     {
         
-        return view('articles.show')->with('articles', Article::all());
+        $article = Article::find($id);
+        
+        return view('articles.show')->with('article', $article);
     }
 
     /**

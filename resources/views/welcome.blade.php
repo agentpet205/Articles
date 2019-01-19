@@ -91,7 +91,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                 <a href="/articles">vist articles</a>
+                 <a href="{{ route('articles') }}">vist articles</a>
                  
                 </div>
 
@@ -101,3 +101,7 @@
     </body>
 
 </html>
+
+
+
+
