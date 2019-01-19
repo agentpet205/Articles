@@ -6,5 +6,5 @@
   <li>Run: <code>php artisan key:generate</code></li>
   <li>Run: <code>php artisan migrate</code></li>
   <li>Run: <code>php artisan serve</code></li>
-  <li>Go to: <a>localhost:8000<a></li>
+  <li>Go to: <style="blue">localhost:8000</style></li>
 </ul>
